@@ -132,7 +132,7 @@ with tab_team:
         """)
 
     with cols[1]:
-        st.image("images/nataraj.png", width=150)
+        st.image("images/nataraj.png", width=100)
         st.markdown("""
         **Natarajan Krishnan**  
         EDA Lead  
