@@ -93,13 +93,10 @@ with tab_intro:
     1. How have PM2.5 and AQI levels in Delhi changed over the past decade?  
     2. Are there recurring seasonal patterns in severe air pollution events?  
     3. How do temperature and wind speed relate to extreme AQI levels?  
-    4. Do pollution episodes align with specific weather conditions?  
-    5. Are certain monitoring locations more prone to extreme pollution events?  
-    6. How does public search interest change during high pollution periods?  
-    7. Is there a time lag between pollution spikes and public attention?  
-    8. Are pollution trends consistent across different years?  
-    9. Can historical patterns indicate upcoming severe pollution episodes?  
-    10. How do satellite-based aerosol measurements compare with ground-level AQI trends?  
+    4. Do pollution episodes align with specific weather conditions?   
+    5. How does public search interest change during high pollution periods?    
+    6. Are pollution trends consistent across different years?  
+    7. Can historical patterns indicate upcoming severe pollution episodes?    
     """)
 
 
@@ -127,35 +124,36 @@ with tab_team:
     cols = st.columns(4)
 
     with cols[0]:
-        st.image("https://via.placeholder.com/150")
+        st.image("images/abhiram.jpg", width=150)
         st.markdown("""
         **Abhirama Karthikeya Mullapudi**  
         Data Lead  
-        [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
+        [LinkedIn](https://www.linkedin.com/in/abhiramakarthikeyamullapudi/) | [GitHub](https://github.com/abhiram17-1289)
         """)
 
     with cols[1]:
-        st.image("https://via.placeholder.com/150")
+        st.image("images/nataraj.png", width=150)
         st.markdown("""
         **Natarajan Krishnan**  
         EDA Lead  
-        [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
+        [LinkedIn](http://www.linkedin.com/in/natarajan-krishnan-a99aa137a) | [GitHub](https://github.com/natarajankrishna)
         """)
 
     with cols[2]:
-        st.image("https://via.placeholder.com/150")
+        st.image("images/thiyagu.png", width=150)
         st.markdown("""
         **Thiyagu Rajendran**  
-        Modeling Lead  
-        [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
+        Visualization Lead  
+        [LinkedIn](https://www.linkedin.com/in/thiyagu-r-a94b941a3/
+        ) | [GitHub](https://github.com/thiyagu-17)
         """)
 
     with cols[3]:
-        st.image("https://via.placeholder.com/150")
+        st.image("images/hari.jpg", width=150)
         st.markdown("""
         **Srihari Pulagalla**  
-        Visualization Lead  
-        [LinkedIn](https://linkedin.com) | [GitHub](https://github.com)
+        Modelling Lead  
+        [LinkedIn](https://www.linkedin.com/in/srihari-pulagalla-652558352/) | [GitHub](https://github.com/Srihari4589)
         """)
 
     st.markdown("---")
